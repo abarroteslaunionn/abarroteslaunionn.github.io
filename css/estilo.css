@@ -1,0 +1,300 @@
+/* Body */
+body{ 
+		/* para colocar una imagen de fondo*/
+	background-image:url("../imagenes/fondo.jpg");
+	/*Para que no se repita la imagen de fondo*/
+	background-repeat: no-repeat;
+	/*Para ajustar el tamaño de la imagen*/
+	background-size: 100% 100%;
+	/*Color de fondo de la pagina*/
+	/* background-color: #D6EAF8;*/  
+	/*Font-Family es para el tipo de letra: si el lo. no lo
+	encuentra en el navegador, coloca el segundo, si no el
+	tercero*/
+	font-family: lista;
+	/*Font-size es para el tamaño se expresa en pixeles*/
+	font-size: 30px;
+	/*Color es para el color de las letras: puedes colocar en 
+	valor hexadecimal, el nombre del color o valores RBG*/
+	color: #32648C; 
+}  
+hr{
+	/*border es para la linea
+	tamaño en pixeles tipo de linea y color*/
+	border: 5px solid #52995E;
+	/*border-radius es para el terminado de las orillas
+	el radio que tendra se expresa en pixeles*/
+	border-radius: 5px;
+	border-width: 80%;
+}
+
+p{
+	/*Text-Align se utiliza para alinear el texto
+	por default estan alineados a la izquierda*/
+	text-align:center;
+	font-size:15px;
+	color: green;
+	font-family:serv;
+}
+ 
+ table,tr,td{
+	 /*Linea de grosor y tipo de letra*/
+	 border:3px solid;
+	 /*Color de linea*/
+	 border-color:#000000;
+	 /*Alineacion del texto*/
+	 text-align:center;
+	 /*Color de fondo*/
+	 background-color:#1FEBE2;
+ }
+ th{
+	 background-color:#FFFFFF;
+ }
+ ul{
+	 list-style-type:circle;
+	 list-style-position: inside;
+ }
+
+ ol{
+	 /*Algunos de los valores de list-style-type son:
+	 lower-alpha; lower-roman; upper-alpha; upper-roman;
+	 a,b,c,d,e,f i,ii,iii,iv A,B,C,D,E,F I,II,III,IV*/
+	list-style-type:upper-roman;
+	list-style-position: inside;
+ }
+ .pie{
+	 text-align:center;
+	 font-size:15px;
+	 color:#000000;
+	 font-family:pie;
+	 font-weight:bold;
+ }
+.title{
+	 font-size:60px;
+	 color:green;
+	 font-weight:bold;
+	 text-align:center;
+	 font-family:mifuente;
+ }
+ .table-text{
+	 font-size: 15px;
+	 font-family:serv;
+	 text-align: center;
+	 color:000000;
+ }
+ .title-text{
+	 font-size:30px;
+	 color:#000000;
+	 font-weight:bold;
+	 text-align:center;
+	 font-family:subtitulos;
+ }
+ .imgmarque{
+	 width:650px;
+	 height:500px;
+	 border-radius:10px;
+	 border:5px solid #35A529;
+	 padding:5px;
+ }
+ .botones{
+	 width:150px;
+	 height:150px;
+	 padding:5px;
+ }
+ .img-table{
+	 width: 100px;
+	 height: 100px;
+ }
+.otrasimg{
+	width:400px;
+	 height:200px;
+	 border-radius:10px;
+	 border:5px solid #000000;
+}
+@font-face{
+	font-family: mifuente;
+	src: url("../fuentes/Pumpkin Story.ttf");
+}
+@font-face{
+	font-family: subtitulos;
+	src: url("../fuentes/Mondaycoldnessfreevertion-Regular.ttf");
+}
+@font-face{
+	font-family:pie;
+	src: url("../fuentes/Baby Paisley.ttf");
+}
+@font-face{
+	font-family:serv;
+	src: url("../fuentes/BLUE SEA.ttf");
+}
+@font-face{
+	font-family: lista;
+	src: url("../fuentes/Happy Candy.ttf");
+}
+/*.fuentegoogle{
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Raleway', sans-serif;
+}/*
+/*Uso de Div´s*/
+/*Div o caja para el encabezado*/
+*{
+	margin:0px;
+	padding:0px;
+}
+div#top{
+	width:100%;
+	height:100px;
+	background-image:linear-gradient(#8766FF,#967AFF);
+}
+div#principal{
+	margin:auto;
+	margin-top:10px;
+	width:95%;
+	height:1000px;
+	background-image:radial-gradient(#4ABD5A,#A4CEAA,#CBFF9D);
+}
+div#p{
+	margin:auto;
+	margin-top:10px;
+	width:95%;
+	height:525px;
+	background-image:radial-gradient(#4ABD5A,#A4CEAA,#CBFF9D);
+}
+div#u{
+	margin:auto;
+	margin-top:10px;
+	width:95%;
+	height:715px;
+	background-image:radial-gradient(#4ABD5A,#A4CEAA,#CBFF9D);
+}
+div#n{
+	margin:auto;
+	margin-top:10px;
+	width:95%;
+	height:500px;
+	background-image:radial-gradient(#4ABD5A,#A4CEAA,#CBFF9D);
+}
+div#s{
+	margin:auto;
+	margin-top:10px;
+	width:95%;
+	height:700px;
+	background-image:radial-gradient(#4ABD5A,#A4CEAA,#CBFF9D);
+}
+div#p3{
+	margin:auto;
+	margin-top:10px;
+	width:95%;
+	height:780px;
+	background-image:radial-gradient(#4ABD5A,#A4CEAA,#CBFF9D);
+}
+div#p2{
+	margin:auto;
+	margin-top:10px;
+	width:95%;
+	height:799px;
+	background-image:radial-gradient(#4ABD5A,#A4CEAA,#CBFF9D);
+}
+div#piep{
+	margin-top:30px;
+	width:100%;
+	height:150px;
+	background-image:linear-gradient(#8766FF,#967AFF);
+}
+.caja{
+	height:160px;
+	width:160px;
+	background:#eee;
+	border:1px solid #eee;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:0 0 10px green;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:2px;
+	font-size:20px;
+	color:black;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:3px;
+	font-size:15px;
+}
+.carrusel{
+	width:800px;
+	margin:auto;
+	box-sizing:border-box;
+}
+.conteCarrousel{
+	width:100%;
+	height:600px;
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.itemCarrousel{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselArrows{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemCarrouselArrows >i :hover{
+	cursor:pointer;
+}
+.conterCarrouselController{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+}
+.conterCarrouselController >a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.itemCarrouselArrows >a>i{
+	color:white;
+}
+.textop{
+	width:400px;
+	background-image:linear-gradient(#1ABC9C,#1ABC9C);
+	font-size:20px;
+	color:black;
+}
+.m{
+	background:#16A085;
+	border:3px solid #000000;
+	margin:5px;
+	color:#27AE60;
+	text-align:center;
+	display:inline-block;
+	width:155px;
+	height:155px;
+	border-radius:50%;
+}
+.m:hover{
+	box-shadow:0 0 10px #27AE60;
+	transform:scale(1.3);
+}
